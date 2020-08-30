@@ -1,5 +1,9 @@
-import { playHandler, pauseHandler, stopHandler } from "./components/handlers";
-import { Start } from "./components/uti";
+import {
+  playHandler,
+  pauseHandler,
+  stopHandler,
+} from "./components/handlers.js";
+import { Start } from "./components/uti.js";
 
 const timeOnScreen = document.querySelector(".time");
 const defaulTime = document.querySelectorAll("[data-time]");

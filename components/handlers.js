@@ -1,5 +1,5 @@
-import { input, comeBackTime, timeOnScreen } from "../index";
-import { stopInterval, Timer } from "./uti";
+import { input, comeBackTime, timeOnScreen } from "../index.js";
+import { stopInterval, Timer } from "./uti.js";
 let timeInPause;
 
 export function timeLeft(time) {

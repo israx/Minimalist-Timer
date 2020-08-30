@@ -1,5 +1,5 @@
-import { timeOnScreen, comeBackTime } from "../index";
-import { timeLeft } from "./handlers";
+import { timeOnScreen, comeBackTime } from "../index.js";
+import { timeLeft } from "./handlers.js";
 
 let stopInterval;
 
