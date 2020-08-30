@@ -13,7 +13,7 @@ body {
   background-image: url("./images/3.jpg");
   background-size: cover;
   transition: all 0.5s;
-  padding-top: 0.5rem;
+  margin: 0;
 }
 h1,
 h2,
@@ -23,6 +23,7 @@ p {
   margin: 0;
 }
 .main-wrapper {
+  padding-top: 1.5rem;
   display: grid;
   gap: 1.5rem;
   justify-items: center;
