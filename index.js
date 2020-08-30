@@ -12,7 +12,6 @@ const comeBackTime = document.querySelector(".come-back");
 const play = document.querySelector(".play");
 const pause = document.querySelector(".pause");
 const stop = document.querySelector(".stop");
-const audio = document.querySelector("audio");
 
 //Event Listeners
 
@@ -27,4 +26,4 @@ play.addEventListener("click", playHandler);
 pause.addEventListener("click", pauseHandler);
 stop.addEventListener("click", stopHandler);
 
-export { timeOnScreen, comeBackTime, input, audio };
+export { timeOnScreen, comeBackTime, input };

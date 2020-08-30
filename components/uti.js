@@ -1,6 +1,6 @@
-import { timeOnScreen, comeBackTime, audio } from "../index.js";
+import { timeOnScreen, comeBackTime } from "../index.js";
 import { timeLeft } from "./handlers.js";
-
+const audio = document.querySelector("audio");
 let stopInterval;
 
 //function that takes seconds
