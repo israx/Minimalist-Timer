@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pomodoro Timer</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="input.css" />
+    <script
+      src="https://kit.fontawesome.com/9edf5d4d55.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="main-wrapper">
+      <nav class="nav">
+        <button data-time="25" class="btn">25 MIN</button>
+        <button data-time="5" class="btn">SHORT BRAKE - 5</button>
+        <form>
+          <div
+            class="value-button"
+            id="decrease"
+            onclick="decreaseValue()"
+            value="Decrease Value"
+          >
+            -
+          </div>
+          <input type="number" id="number" value="0" />
+          <div
+            class="value-button"
+            id="increase"
+            onclick="increaseValue()"
+            value="Increase Value"
+          >
+            +
+          </div>
+        </form>
+      </nav>
+      <main class="main">
+        <h1 class="time">00:00</h1>
+        <p class="come-back">Have a good day</p>
+      </main>
+      <footer>
+        <button class="play icon"><i class="far fa-play-circle"></i></button>
+        <button class="pause icon"><i class="far fa-pause-circle"></i></i></button>
+        <button class="stop icon"> <i class="far fa-stop-circle"></i></button>
+        
+       
+      </footer>
+    </div>
+    <audio src="./audio/audio1.mp3"></audio>
+    <script src="./components/input.js"></script>
+    <script src="index.js" type = "module"></script>
+  </body>
+</html>

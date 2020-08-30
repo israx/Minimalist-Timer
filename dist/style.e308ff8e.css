@@ -1,0 +1,90 @@
+html {
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  min-height: 100vh;
+  background-image: url("/3.993a564c.jpg");
+  background-size: cover;
+  transition: all 0.5s;
+  padding-top: 0.5rem;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+.main-wrapper {
+  display: grid;
+  gap: 1.5rem;
+  justify-items: center;
+}
+.nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav > * {
+  margin-left: 1.5rem;
+}
+.nav > *:first-child {
+  margin-left: 0;
+}
+.nav .btn {
+  padding: 0.5em 1em;
+  background: #eee;
+  border: 2.5px solid rgb(0, 0, 0);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  font-family: inherit;
+  font-weight: 100;
+  font-size: 0.7rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.nav .btn:hover {
+  background: rgb(225, 225, 225);
+}
+.main {
+  text-align: center;
+}
+
+.main .time {
+  font-size: 3.5rem;
+  text-align: center;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
+}
+.main .come-back {
+  font-weight: 100;
+  opacity: 0;
+  transition: opacity 1s;
+}
+footer button {
+  background: none;
+  border: none;
+  font-size: inherit;
+  cursor: pointer;
+  outline: none;
+}
+
+.icon .far {
+  font-size: 2.5rem;
+}
+.far:hover {
+  color: black;
+}
+@media screen and (max-width: 500px) {
+  body {
+    background-position-x: -200px;
+  }
+}
+
+
+/*# sourceMappingURL=/style.e308ff8e.css.map */
